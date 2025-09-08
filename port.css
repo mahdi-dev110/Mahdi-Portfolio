@@ -963,6 +963,10 @@ footer {
     }
 }
 
+@media (max-width: 375px) {
+    .skillcards{
+        width: 88%;
+    }
 @keyframes navSlide {
     from {
         transform: translateY(-50px);
@@ -994,4 +998,5 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: #29ff03;
     border-radius: 20px;
+
 }
